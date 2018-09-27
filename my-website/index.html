@@ -1,0 +1,31 @@
+<HTML>
+<HEAD>
+
+	<SCRIPT>
+		function Submit(){
+			var bodyText="Your username is " + fmEmployment.txUsername.value + ". Your Zipcode is " + fmEmployment.txZipCode.value + ". Your Password is " + fmEmployment.txPwd.value  + "."; 
+			window.alert(bodyText);
+			window.open("http://robertbryant.codehs.me/login.html");
+		}
+	</SCRIPT>
+</HEAD>
+<BODY>
+    
+	<H1 style="color: yellow">My Life</font></H1>
+	<P><FONT size="5"> Please log in to visit my website about my life.
+	</font></p>
+	<FORM NAME="fmEmployment">
+		Username
+		<INPUT TYPE="Text" NAME="txUsername"><br>
+		Zipcode
+		<INPUT TYPE="Text" NAME="txZipCode"><br>
+        Password
+		<Input Type="Password" NAME="txPwd"><br>
+		
+		<br><br>
+		
+		<BR><INPUT TYPE="button" NAME="btSubmit" VALUE="Submit" onClick="Submit();">
+	</FORM>
+	
+</BODY>
+</HTML>
